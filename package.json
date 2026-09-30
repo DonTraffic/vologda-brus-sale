@@ -6,7 +6,8 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "postbuild": "node scripts/copy-to-dist.mjs"
   },
   "dependencies": {
     "nuxt": "^4.5.2",
